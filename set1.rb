@@ -16,3 +16,9 @@ puts b.sort.inspect
 
 c = b
 puts c.sort.map { |i| i + 1 }.inspect
+
+d = b
+puts d.sum
+
+e = b
+puts e.sum * 2
