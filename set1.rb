@@ -13,3 +13,6 @@ puts a.map { |i| i + 1 }.inspect
 
 b = [1, 3, 5, 4, 2]
 puts b.sort.inspect
+
+c = b
+puts c.sort.map { |i| i + 1 }.inspect
