@@ -10,3 +10,6 @@
 
 a = [1, 2, 3, 4, 5]
 puts a.map { |i| i + 1 }.inspect
+
+b = [1, 3, 5, 4, 2]
+puts b.sort.inspect
